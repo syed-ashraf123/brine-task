@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  app:
+    image: syedashraf123/brine-test-python
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8090:8090"
+    volumes:
+      - .:/app

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: python-task
+spec:
+  selector:
+    app: python-task
+  ports:
+    - port: 8080 #External Port
+      targetPort: 8080
