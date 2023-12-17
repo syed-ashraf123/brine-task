@@ -2,10 +2,14 @@ Project README
 Below, you'll find essential information on the project structure and how to run Docker files, deployments, and services.
 
 Project Structure
+
 Codes Folder: Contains all the code files for the project.
+
 Test Folder: Includes test files and suites for ensuring the reliability of the code.
+
 Infra Folder: Holds infrastructure-related files and configurations.
 Running Docker
+
 To run any Docker file, use the following command:
 
 sudo docker compose up
